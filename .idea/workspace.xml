@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99d6fe11-f547-46ef-aa36-708c6f55d8f9" name="Changes" comment="build: initial commit / hello world">
+    <list default="true" id="99d6fe11-f547-46ef-aa36-708c6f55d8f9" name="Changes" comment="feat: add dagger 2+ example">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/almamedia/lacoz/CoffeeApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/almamedia/lacoz/CoffeeLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/almamedia/lacoz/CoffeeMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/almamedia/lacoz/ElectricHeater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/almamedia/lacoz/Heater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/almamedia/lacoz/HeaterModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/almamedia/lacoz/Pump.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/almamedia/lacoz/PumpModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/almamedia/lacoz/Thermosiphon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/almamedia/lacoz/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +27,43 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="dagger" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="dagger" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="dagger" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,7 +84,20 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CoffeeApp">
+    <configuration name="CoffeeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.almamedia.lacoz.CoffeeApp" />
+      <module name="dagger.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.almamedia.lacoz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.almamedia.lacoz.Main" />
       <module name="dagger.main" />
@@ -53,6 +113,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CoffeeApp" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -73,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679656606864</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: add dagger 2+ dependency">
+      <created>1679657202831</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679657202831</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +157,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="build: initial commit / hello world" />
-    <option name="LAST_COMMIT_MESSAGE" value="build: initial commit / hello world" />
+    <MESSAGE value="feat: add dagger 2+ dependency" />
+    <MESSAGE value="feat: add dagger 2+ example" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add dagger 2+ example" />
   </component>
 </project>

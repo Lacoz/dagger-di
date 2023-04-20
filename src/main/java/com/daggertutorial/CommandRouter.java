@@ -7,8 +7,13 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
+import javax.inject.Inject;
+
 final class CommandRouter {
     private final Map<String, Command> commands = Collections.emptyMap();
+
+    @Inject
+    CommandRouter() {}
 
     Result route(String input) {
         List<String> splitInput = split(input);

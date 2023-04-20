@@ -9,8 +9,8 @@ import javax.inject.Inject;
 final class CommandRouter {
     private final Map<String, Command> commands = new HashMap<>();
     @Inject
-    CommandRouter(HelloWorldCommand helloWorldCommand) {
-        commands.put(helloWorldCommand.key(), helloWorldCommand);
+    CommandRouter(Command command) {
+        commands.put(command.key(), command);
     }
 
     Result route(String input) {
